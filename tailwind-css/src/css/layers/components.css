@@ -1,0 +1,32 @@
+@layer components {
+    .link {
+        @apply text-primaryDark transition-colors font-semibold;
+        @apply dark:text-primaryLight;
+    }
+
+    .link:hover {
+        @apply text-primaryLight transition-colors;
+        @apply dark:text-secondary;
+    }
+
+    .logout-btn {
+        @apply text-white;
+        @apply font-medium;
+        @apply h-full;
+        @apply ml-14;
+        @apply mr-10;
+        @apply p-3;
+        @apply self-center;
+        @apply bg-primaryDark;
+        @apply border-2;
+        @apply border-primaryDark;
+        @apply transition-colors;
+        @apply rounded-8px;
+        @apply dark:bg-primaryLight;
+        @apply dark:border-primaryLight;
+    }
+
+    .logout-btn:hover {
+        @apply bg-primaryLight dark:bg-dmPrimary;
+    }
+}

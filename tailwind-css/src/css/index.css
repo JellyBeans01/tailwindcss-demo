@@ -1,0 +1,7 @@
+@import "layers/base.css";
+@import "layers/components.css";
+
+/* Use TailwindCSS default styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

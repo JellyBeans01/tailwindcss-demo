@@ -1,0 +1,26 @@
+@layer base {
+    h1, h2, h3, h4, p, code {
+        @apply text-gray-900;
+        @apply dark:text-white;
+    }
+
+    h1 {
+        @apply font-bold text-2xl;
+    }
+
+    h2 {
+        @apply font-semibold text-xl;
+    }
+
+    h3 {
+        @apply font-semibold text-lg;
+    }
+
+    h4, p, code {
+        @apply font-normal text-base;
+    }
+
+    code {
+        @apply font-mono;
+    }
+}
